@@ -1641,7 +1641,10 @@ nav {
   padding-bottom: 100px; }
 
 .footer_wrap {
-  background-image: url(../img/footer_bg.png); }
+  background-image: url(../img/footer_bg.png);
+  -webkit-background-size: cover;
+   background-size: cover; 
+   background-repeat: no-repeat;}
 
 .footer_contacts {
   margin-top: 150px;
